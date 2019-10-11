@@ -1,6 +1,6 @@
 {
-    "name": "emotion/code-standard",
-    "description": "Code standard automation used at emotion.",
+    "name": "jbieliauskas/php-standard",
+    "description": "Php standard automation.",
     "authors": [
         {
             "name": "Justas Bieliauskas",
