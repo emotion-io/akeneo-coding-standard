@@ -1,4 +1,0 @@
-parameters:
-  tasks:
-    ecs:
-      whitelist_patterns: ['.']
