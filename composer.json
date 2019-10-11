@@ -1,5 +1,5 @@
 {
-    "name": "jbieliauskas/rules",
+    "name": "jbieliauskas/grumphp-conventions",
     "authors": [
         {
             "name": "Justas Bieliauskas",
@@ -9,5 +9,6 @@
     "require": {},
     "require-dev": {
         "nlubisch/grumphp-easycodingstandard": "^1.1"
-    }
+    },
+    "minimum-stability": "dev"
 }
