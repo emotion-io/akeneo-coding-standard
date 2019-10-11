@@ -1,5 +1,5 @@
 imports:
-  - { resource: 'vendor/symplify/easy-coding-standard/config/set/symfony.yaml' }
-  - { resource: 'vendor/symplify/easy-coding-standard/config/set/clean-code.yaml' }
-  - { resource: 'vendor/symplify/easy-coding-standard/config/set/php70.yaml' }
-  - { resource: 'vendor/symplify/easy-coding-standard/config/set/php71.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/symfony.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/clean-code.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php70.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php71.yaml' }
