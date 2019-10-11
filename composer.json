@@ -1,0 +1,13 @@
+{
+    "name": "jbieliauskas/rules",
+    "authors": [
+        {
+            "name": "Justas Bieliauskas",
+            "email": "justas.b@emotion.lt"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "nlubisch/grumphp-easycodingstandard": "^1.1"
+    }
+}
