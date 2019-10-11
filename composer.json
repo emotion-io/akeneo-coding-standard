@@ -1,5 +1,6 @@
 {
-    "name": "jbieliauskas/grumphp-conventions",
+    "name": "emotion/code-standard",
+    "description": "Code standard automation used at emotion.",
     "authors": [
         {
             "name": "Justas Bieliauskas",
@@ -8,7 +9,7 @@
     ],
     "require": {},
     "require-dev": {
-        "nlubisch/grumphp-easycodingstandard": "^1.1"
-    },
-    "minimum-stability": "dev"
+        "phpro/grumphp": "^0.16.1",
+        "symplify/easy-coding-standard": "^6.1"
+    }
 }

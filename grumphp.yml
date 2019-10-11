@@ -1,6 +1,0 @@
-parameters:
-  extensions:
-    - NLubisch\GrumPHP\Extension
-  tasks:
-    ecs:
-      config: vendor/emotion/code-standard/ecs.yml
