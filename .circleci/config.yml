@@ -2,12 +2,36 @@ version: '2'
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: php:7.3-cli-alpine
     steps:
+      - run:
+          name: 'Install dependencies'
+          command: apk update && apk add wget git
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: 'Install composer'
+          command: |
+            php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+            EXPECTED_SIGNATURE="$(wget -q -O - https://composer.github.io/installer.sig)"
+            ACTUAL_SIGNATURE="$(php -r "echo hash_file('sha384', 'composer-setup.php');")"
+            if [ "$EXPECTED_SIGNATURE" != "$ACTUAL_SIGNATURE" ]; then
+                >&2 echo 'ERROR: Invalid installer signature'
+                rm composer-setup.php
+                exit 1
+            fi
+            php composer-setup.php --install-dir=/usr/local/bin --filename=composer --quiet
+            RESULT=$?
+            rm composer-setup.php
+            exit $RESULT
       - run:
-          name: Print the Current Time
-          command: date
+          name: 'Install composer dependencies'
+          command: |
+            adduser -D composer
+            su -c 'composer install' composer
+      - run:
+          name: 'Look around'
+          command: |
+            pwd 
+            ls -a 
+            ls vendor/
+            ls vendor/bin
