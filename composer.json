@@ -1,6 +1,7 @@
 {
     "name": "jbieliauskas/php-standard",
     "description": "Php standard automation.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Justas Bieliauskas",
