@@ -5,7 +5,7 @@ Combines [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) + 
 ## Install
 
 ```bash
-composer require --dev jbieliauskas/php-standard:0.1.4
+composer require --dev jbieliauskas/php-standard
 ```
 
 ## Usage
