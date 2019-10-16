@@ -3,3 +3,14 @@ imports:
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/clean-code.yaml' }
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php70.yaml' }
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php71.yaml' }
+
+services:
+  PhpCsFixer\Fixer\Import\OrderedImportsFixer:
+    sort_algorithm: 'length'
+
+parameters:
+  skip:
+    PhpCsFixer\Fixer\Phpdoc\PhpdocAlignFixer: ~
+    PhpCsFixer\Fixer\Phpdoc\PhpdocInlineTagFixer: ~
+    PhpCsFixer\Fixer\Phpdoc\PhpdocSeparationFixer: ~
+    PhpCsFixer\Fixer\PhpTag\BlankLineAfterOpeningTagFixer: ~
