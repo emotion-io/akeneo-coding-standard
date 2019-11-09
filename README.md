@@ -5,7 +5,7 @@ Combines [EasyCodingStandard](https://github.com/Symplify/EasyCodingStandard) + 
 ## Install
 
 ```bash
-composer require --dev jbieliauskas/php-standard
+composer require --dev digitronas/akeneo-coding-standard
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Create `grumphp.yml` file in the root directory of your project and add:
 parameters:
   tasks:
     ecs:
-      config: 'vendor/jbieliauskas/php-standard/ecs.yml'
+      config: 'vendor/digitronas/akeneo-coding-standard/ecs.yml'
       whitelist_patterns: ['.']
 ```
 

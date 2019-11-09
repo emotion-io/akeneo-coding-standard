@@ -6,6 +6,10 @@
         {
             "name": "Justas Bieliauskas",
             "email": "justas.b@emotion.lt"
+        },
+        {
+            "name": "Paulius Macernis",
+            "email": "paulius@emotion.lt"
         }
     ],
     "require": {
