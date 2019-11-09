@@ -3,10 +3,14 @@ imports:
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/clean-code.yaml' }
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php70.yaml' }
   - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php71.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/psr2.yaml' }
 
 services:
   PhpCsFixer\Fixer\Import\OrderedImportsFixer:
     sort_algorithm: 'length'
+  PhpCsFixer\Fixer\PhpTag\LinebreakAfterOpeningTagFixer: ~
+  PhpCsFixer\Fixer\FunctionNotation\MethodArgumentSpaceFixer:
+    ensure_fully_multiline: false
 
 parameters:
   skip:
