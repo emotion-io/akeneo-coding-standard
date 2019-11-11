@@ -1,0 +1,6 @@
+#
+# This file should contain up-to-date coding rules set by Symfony core team. It should include the following:
+#  https://symfony.com/doc/master/contributing/code/standards.html
+#
+imports:
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/symfony.yaml' }

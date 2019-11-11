@@ -1,0 +1,14 @@
+#
+# This file should contain up-to-date coding rules set by Akeneo core team. It should include the following:
+#
+#  Versioning and dependencies: https://docs.akeneo.com/master/technical_architecture/best_practices/project.html
+#  Bundle creation: https://docs.akeneo.com/master/technical_architecture/best_practices/reusable_bundle.html
+#  Code conventions: https://docs.akeneo.com/master/technical_architecture/best_practices/core/conventions.html
+#  Code standards: https://docs.akeneo.com/master/technical_architecture/best_practices/core/standards.html
+#
+services:
+  # https://docs.akeneo.com/master/technical_architecture/best_practices/core/standards.html
+
+  # Add a single space around operators (==, &&, …);
+  PhpCsFixer\Fixer\Operator\ConcatSpaceFixer:
+    spacing: one
