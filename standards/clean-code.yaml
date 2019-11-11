@@ -1,0 +1,7 @@
+#
+# This file should contain up-to-date coding practices covered by these clean code books:
+#  https://www.amazon.com/Robert-C.-Martin/e/B000APG87E
+# and any other content of "clean code" movement that do not contradict the current message of the author.
+#
+imports:
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/clean-code.yaml' }

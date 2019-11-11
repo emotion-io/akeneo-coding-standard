@@ -1,0 +1,20 @@
+#
+# There should be nothing in this file that contradicts standards provided by all others, e.g. PHP-FIG, Symfony, etc.
+# Therefore it is really under the question if we should have any content in here at all.
+#
+# In practice, the rule here must match any of issues: https://github.com/digitronas/akeneo-coding-standard/issues
+# Therefore it is advisable to provide a link to the coresponding issue after providing the rule itself.
+#
+#services:
+#  PhpCsFixer\Fixer\Import\OrderedImportsFixer:
+#    sort_algorithm: 'length'
+#  PhpCsFixer\Fixer\PhpTag\LinebreakAfterOpeningTagFixer: ~
+#  PhpCsFixer\Fixer\FunctionNotation\MethodArgumentSpaceFixer:
+#    ensure_fully_multiline: false
+#
+#parameters:
+#  skip:
+#    PhpCsFixer\Fixer\Phpdoc\PhpdocAlignFixer: ~
+#    PhpCsFixer\Fixer\Phpdoc\PhpdocInlineTagFixer: ~
+#    PhpCsFixer\Fixer\Phpdoc\PhpdocSeparationFixer: ~
+#    PhpCsFixer\Fixer\PhpTag\BlankLineAfterOpeningTagFixer: ~

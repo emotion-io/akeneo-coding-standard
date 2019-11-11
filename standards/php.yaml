@@ -1,0 +1,9 @@
+#
+# This file should contain up-to-date coding rules set by PHP.
+#  It excludes PHP legacy usage, e.g.: https://www.php.net/manual/en/migration70.deprecated.php
+#  and includes best practices presented by PHP-FIG personnel in the form of PSRs: https://www.php-fig.org/psr/
+#
+imports:
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php70.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/php71.yaml' }
+  - { resource: '%vendor_dir%/symplify/easy-coding-standard/config/set/psr12.yaml' }
