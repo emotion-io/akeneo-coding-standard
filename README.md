@@ -40,3 +40,5 @@ To add or remove rules, first [submit an issue](https://github.com/digitronas/ak
 Clone this repository and run `composer install`. This will install ecs and grumphp. You might have to [bypass grumphp](https://github.com/phpro/grumphp/blob/master/doc/faq.md#how-can-i-bypass-grumphp), since it might not allow you to commit code if there are files that don't meet the standard.
 
 Create a pull request to `master` branch. The changes will be merged after they pass code review.
+
+If an issue should be closed once a pull request is merged, it can be done automatically using Github issue references. Add "Closes #{issue number}" to description. References should not appear in pull request title or any of its commits.
