@@ -41,4 +41,4 @@ Clone this repository and run `composer install`. This will install ecs and grum
 
 Create a pull request to `master` branch. The changes will be merged after they pass code review.
 
-If an issue should be closed once a pull request is merged, it can be done automatically using Github issue references. Add "Closes #{issue number}" to description. References should not appear in pull request title or any of its commits.
+If an issue should be closed once a pull request is merged, it can be done automatically using Github issue references. Add "Closes #{issue number}" to description ([example](https://github.com/digitronas/akeneo-coding-standard/pull/5)). References should not appear in pull request title or any of its commits.
